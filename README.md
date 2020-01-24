@@ -7,6 +7,14 @@ container. Thanks to being based on Alpine Linux, the storage required is less
 than 25MB for the container image, whereas the running container requires just
 about 3MB of ram.
 
+To clone from github and get the run-script and sample dhcpd.conf:
+```
+   $ git clone git@github.com:mlgoth/docked-isc-dhcpd.git
+```
+To grab the image from Docker Hub:
+```
+   $ docker pull mlgoth/isc-dhcpd:latest
+```
 
 Configuration file
 ------------------
