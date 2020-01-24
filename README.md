@@ -25,8 +25,8 @@ Editing the configuration from the host:
    host$ sudo vi /etc/dhcp/dhcpd.conf && docker restart dhcpd
 ```
 
-/etc/dhcp/dhcpd.conf must exist before starting the container. A sample one is
-provided - copy it to /etc/dhcp/dhcpd.conf and edit to suit your setup. Editing
+`/etc/dhcp/dhcpd.conf` must exist before starting the container. A sample one is
+provided - copy it to `/etc/dhcp/dhcpd.conf` and edit to suit your setup. Editing
 the first subnat range declaration in the example file to match your local
 network will be sufficient to get your own DHCP-server up and running.
 
@@ -77,7 +77,7 @@ Add the container run script to the users crontab on the host:
 
 Logfile
 -------
-Output from dhcpd is logged to /var/lib/dhcp/logfile in the container and
+Output from dhcpd is logged to `/var/lib/dhcp/logfile` in the container and
 is rotated to .old on every container restart.
 
 The logfile can also be followed from the host with less(1):
