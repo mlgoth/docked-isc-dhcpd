@@ -15,7 +15,7 @@ if [ -f $LOGFILE ]; then            # rotate logfile on every container start
 fi
 
 # Get the last changes if needed (dev only)
-time docker build -t docked-dhcpd .
+# time docker build -t isc-dhcpd .
 
 docker run --rm \
            --detach \
@@ -24,6 +24,6 @@ docker run --rm \
            -v $DATA:/var/lib/dhcp \
            -v /etc/localtime:/etc/localtime:ro \
            --name dhcpd \
-           docked-dhcpd
+           isc-dhcpd
 
 exit 0

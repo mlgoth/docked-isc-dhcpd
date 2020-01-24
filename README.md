@@ -26,9 +26,10 @@ Editing the configuration from the host:
 ```
 
 `/etc/dhcp/dhcpd.conf` must exist before starting the container. A sample one is
-provided - copy it to `/etc/dhcp/dhcpd.conf` and edit to suit your setup. Editing
-the first subnat range declaration in the example file to match your local
-network will be sufficient to get your own DHCP-server up and running.
+provided when you clone from git - copy it to `/etc/dhcp/dhcpd.conf` and edit
+it to suit your setup. Updating the first subnet range declaration in the
+example file to match your local network will be sufficient to get your own
+DHCP-server up and running.
 
 
 Starting the container

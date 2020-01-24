@@ -1,7 +1,7 @@
 #
 # Dockerfile for ISC dhcpd server, initially for piehole rpi, 22-Jan-2020/shj
 #
-#  $ docker build -t docked-dhcpd .
+#  $ docker build -t isc-dhcpd .
 #
 # Exec run-dhcpd-container.sh to start the container.
 #
