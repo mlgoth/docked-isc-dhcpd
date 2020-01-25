@@ -132,7 +132,7 @@ Starting Nmap 7.40 ( https://nmap.org ) at 2020-01-23 11:01 CET
    |     Subnet Mask: 255.255.255.0
    |     Router: 192.168.1.2
    |     Domain Name Server: 8.8.8.8, 8.8.4.4
-   |     Domain Name: gyzzz.eu
+   |     Domain Name: yourdomain.com
    |_    Broadcast Address: 192.168.1.255
    WARNING: No targets were specified, so 0 hosts scanned.
    Nmap done: 0 IP addresses (0 hosts up) scanned in 3.42 seconds
